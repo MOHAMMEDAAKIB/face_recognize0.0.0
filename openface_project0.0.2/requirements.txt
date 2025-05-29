@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pymongo
+deepface
+python-multipart
+
+
+#curl -X POST "http://127.0.0.1:8000/add_user" -H "accept: application/json" -H "Content-Type: multipart/form-data" -F "name=Aakib" -F "files=@img1.jpg" -F "files=@img2.jpg" -F "files=@img3.jpg" -F "files=@img4.jpg"
+#
